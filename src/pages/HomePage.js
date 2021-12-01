@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import SearchResultCard from "../components/SearchResultCard";
+import SearchBar from "../components/SearchBar";
 export default class HomePage extends Component {
   render() {
     return (
       <div>
         <h1>Home Page</h1>
+        <SearchBar />
         {/* TODO Search Bar */}
         <SearchResultCard
           title="TItle"
