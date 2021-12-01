@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import TutorialVideo from "../components/TutorialVideoPlayer";
 
 export default class HomePage extends Component {
   render() {
@@ -7,6 +7,7 @@ export default class HomePage extends Component {
       <div>
         <h1>Home Page</h1>
         {/* TODO Search Bar */}
+
         {/*Category Items*/}
         {/* TODO List of tutorial cards */}
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-
+import { ParaGrey } from "./StyledComponents/textComponents";
 const DropDownContainer = styled("div")`
   width: 25.5em;
 `;
@@ -57,6 +57,8 @@ export default function LanguageDropDown() {
 
   return (
     <DropDownContainer>
+      <ParaGrey>Select a Language</ParaGrey>
+
       <DropDownHeader onClick={toggling}>{selectedOption || "Select a language"}</DropDownHeader>
       {isOpen && (
         <DropDownListContainer>
