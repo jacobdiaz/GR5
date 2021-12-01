@@ -1,0 +1,17 @@
+.related{
+    width: 300px;
+    
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.related iframe{
+    width: 250px;
+    padding: 10px;
+    border: none;
+}
+.related p{
+    text-align: start;
+    padding: 25px;
+}
