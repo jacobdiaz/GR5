@@ -1,0 +1,19 @@
+
+.card-div{
+  width: 150px; 
+  height: 150px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.card-image img{
+    height: 75px;
+}
+
+.card-image{
+    padding-top: 10px;
+}
+
+.card-title{
+    padding-bottom: 10px;
+}
