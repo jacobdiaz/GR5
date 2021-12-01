@@ -13,7 +13,7 @@ import {
 
 export default function TutorialVideoPlayer({ videoSrc, title, description, company }) {
   return (
-    <Container>
+    <div>
       <LanguageDropDown />
       <h1>{title}</h1>
       <VideoPlayerContainer>
@@ -47,6 +47,6 @@ export default function TutorialVideoPlayer({ videoSrc, title, description, comp
           <GreyButton> Go to {company}.com </GreyButton>
         </VideoTitleDescCard>
       </CardRowContainer>
-    </Container>
+    </div>
   );
 }

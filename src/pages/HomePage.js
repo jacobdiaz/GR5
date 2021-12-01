@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import TutorialVideo from "../components/TutorialVideoPlayer";
 
 export default class HomePage extends Component {
   render() {

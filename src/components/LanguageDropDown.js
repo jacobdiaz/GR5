@@ -18,6 +18,8 @@ const DropDownHeader = styled("div")`
 const DropDownListContainer = styled("div")``;
 
 const DropDownList = styled("ul")`
+  position: absolute;
+  width: 20em;
   padding: 0;
   margin: 0;
   padding-left: 1em;
