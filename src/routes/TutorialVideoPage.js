@@ -3,6 +3,8 @@ import TutorialVideoPlayer from "../components/TutorialVideoPlayer";
 import BackComponent from "../components/BackComponent";
 import { Container } from "../components/StyledComponents/basicComponents";
 import SearchBar from "../components/SearchBar";
+import RelatedVideos from "../components/RelatedVideos.js"
+import data from "../mockData/data.json"
 
 export default function TutorialVideoPage({ title, description, videoSrc, company }) {
   return (
@@ -16,6 +18,7 @@ export default function TutorialVideoPage({ title, description, videoSrc, compan
         company="Amazon"
       />
       <h1>Related Videos</h1>
+      <RelatedVideos video = {data[1].videoSrc} title = {data[1].title} paragraph = {data[1].description}/>
     </Container>
   );
 }
