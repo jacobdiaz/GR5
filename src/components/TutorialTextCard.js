@@ -1,10 +1,10 @@
 import React from "react";
-import { GreyButton } from "./StyledComponents/basicComponents";
+import { GreyButton, Row } from "./StyledComponents/basicComponents";
 import { ParaGrey } from "./StyledComponents/textComponents";
 import styled from "styled-components";
 
 import CompanyIcon from "./CompanyIcon";
-
+import BookmarkAddIcon from "@mui/icons-material/BookmarkAdd";
 export default function TutorialTextCard({ title, description, company }) {
   const TutorialCard = styled("div")`
     background-color: white;
@@ -23,7 +23,18 @@ export default function TutorialTextCard({ title, description, company }) {
       </div>
       {/* Description and the button */}
       <p>{description}</p>
-      <GreyButton>View Tutorial</GreyButton>
+      <Row style={{ alignItems: "space-between" }}>
+        <div style={{ width: "70%", paddingRight: "10px" }}>
+          <GreyButton>View Tutorial</GreyButton>
+        </div>
+
+        <div style={{ width: "25%" }}>
+          <GreyButton style={{ alignItems: "center", backgroundColor: "white", color: "black" }}>
+            <BookmarkAddIcon style={{ fontSize: "20px" }} />
+            Save Tutorial
+          </GreyButton>
+        </div>
+      </Row>
     </TutorialCard>
   );
 }

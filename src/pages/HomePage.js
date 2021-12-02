@@ -2,16 +2,11 @@ import React, { Component } from "react";
 import TutorialTextCard from "../components/TutorialTextCard";
 import styled from "styled-components";
 import { ParaGrey } from "../components/StyledComponents/textComponents";
-import { Container } from "../components/StyledComponents/basicComponents";
+import { Container, Row } from "../components/StyledComponents/basicComponents";
 
 import SearchBar from "../components/SearchBar";
 import CategoryItem from "../components/CategoryItem";
 
-const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-`;
 export default class HomePage extends Component {
   render() {
     return (
