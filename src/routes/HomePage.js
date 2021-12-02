@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import TutorialTextCard from "../components/TutorialTextCard";
 import { ParaGrey } from "../components/StyledComponents/textComponents";
 import { Container, Row } from "../components/StyledComponents/basicComponents";
-
+import LanguageDropDown from "../components/LanguageDropDown";
 import SearchBar from "../components/SearchBar";
 import CategoryItem from "../components/CategoryItem";
 import data from "../mockData/data.json";
@@ -44,6 +44,13 @@ export default class HomePage extends Component {
       <Container>
         {/* Search bar is fixed to the top of the page as you scroll */}
         <SearchBar placeholder="Enter Company Name or Type of Tutorial You Need..." />
+
+        <LanguageDropDown />
+
+        <h2>Step-by-step Instructions</h2>
+        <h4>1) Choose the Company you need help with</h4>
+        <h4>2) Then choose the the Category of services you might need help with for that Company</h4>
+        <h4>OR  Just type it in the search bar!</h4>
 
         <Row>
           <h2 style={{ paddingRight: "10px" }}>Company</h2>
