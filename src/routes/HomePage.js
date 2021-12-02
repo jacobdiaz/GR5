@@ -5,8 +5,32 @@ import { Container, Row } from "../components/StyledComponents/basicComponents";
 
 import SearchBar from "../components/SearchBar";
 import CategoryItem from "../components/CategoryItem";
+import data from "../mockData/data.json";
 
 export default class HomePage extends Component {
+  renderCards = () => {
+    let cards = [];
+
+    // Create a random permutation of nums
+    var nums = [1, 2, 3, 4, 5, 6, 7, 8],
+      ranNums = [],
+      i = nums.length,
+      j = 0;
+
+    while (i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      ranNums.push(nums[j]);
+      nums.splice(j, 1);
+    }
+
+    // Loop through those random numbers and create Cards
+    for (let i = 0; i < ranNums.length; i++) {
+      let index = ranNums[i];
+      cards.push(<TutorialTextCard company={data[index].company} title={data[index].title} description={data[index].description} />);
+    }
+    return cards;
+  };
+
   render() {
     return (
       // Container keeps everthing within the nice spaced margins
@@ -40,13 +64,10 @@ export default class HomePage extends Component {
           <CategoryItem company="more" />
         </Row>
 
-        <h3>Category</h3>
+        <h2>Tutorials</h2>
         {/* Todo populate a list of tutorial cards */}
-        <TutorialTextCard
-          company="google"
-          title="What do you have to say to Joe Byron?"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        />
+
+        {this.renderCards()}
       </Container>
     );
   }

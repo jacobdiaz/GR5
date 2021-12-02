@@ -10,6 +10,7 @@ export default function TutorialTextCard({ title, description, company }) {
     background-color: white;
     padding: 25px;
     border-radius: 10px;
+    margin-bottom: 25px;
   `;
   return (
     <TutorialCard>
