@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import TutorialTextCard from "../components/TutorialTextCard";
-import styled from "styled-components";
 import { ParaGrey } from "../components/StyledComponents/textComponents";
 import { Container, Row } from "../components/StyledComponents/basicComponents";
 
@@ -13,7 +12,7 @@ export default class HomePage extends Component {
       // Container keeps everthing within the nice spaced margins
       <Container>
         {/* Search bar is fixed to the top of the page as you scroll */}
-        <SearchBar placeholder = "Enter Company Name or Type of Tutorial You Need..."/>
+        <SearchBar placeholder="Enter Company Name or Type of Tutorial You Need..." />
 
         <Row>
           <h2 style={{ paddingRight: "10px" }}>Company</h2>

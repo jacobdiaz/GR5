@@ -2,7 +2,9 @@ import React from "react";
 import "../assets/searchbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 import { GreyButton } from "./StyledComponents/basicComponents";
-// Glieb
+
+import { Link } from "react-router-dom";
+
 export default function SearchBar({ placeholder, data }) {
   return (
     <div className="container">
@@ -16,7 +18,9 @@ export default function SearchBar({ placeholder, data }) {
         <div className="searchResult"></div>
       </div>
       <div style={{ width: "120px" }}>
-        <GreyButton>Search</GreyButton>
+        <Link to="/search">
+        <GreyButton to="/search">Search</GreyButton>
+        </Link>
       </div>
     </div>
   );
