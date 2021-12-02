@@ -10,15 +10,24 @@ import {
   GreyButton,
 } from "./StyledComponents/basicComponents";
 
-export default function TutorialVideoPlayer({ videoSrc, title, description, company }) {
+export default function TutorialVideoPlayer() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+
+  // Grab from url
+  const tit = urlParams.get("title");
+  const des = urlParams.get("description");
+  const com = urlParams.get("company");
+  const src = urlParams.get("video");
+
   return (
     <div>
       <LanguageDropDown />
-      <h1>{title}</h1>
+      <h1>{tit}</h1>
       <VideoPlayerContainer>
         <VideoPlayer>
           {/* videoSrc is the url of the video */}
-          <iframe width="100%" height="100%" src={videoSrc}></iframe>
+          <iframe width="100%" height="100%" src={src}></iframe>
         </VideoPlayer>
         <div></div>
       </VideoPlayerContainer>
@@ -41,9 +50,9 @@ export default function TutorialVideoPlayer({ videoSrc, title, description, comp
           </p>
         </TranscriptCard>
         <VideoTitleDescCard>
-          <h2>{title}</h2>
-          <p>{description}</p>
-          <GreyButton> Go to {company}.com </GreyButton>
+          <h2>{tit}</h2>
+          <p>{des}</p>
+          <GreyButton> Go to {com}.com </GreyButton>
         </VideoTitleDescCard>
       </CardRowContainer>
     </div>
