@@ -26,7 +26,14 @@ export default class HomePage extends Component {
     // Loop through those random numbers and create Cards
     for (let i = 0; i < ranNums.length; i++) {
       let index = ranNums[i];
-      cards.push(<TutorialTextCard company={data[index].company} title={data[index].title} description={data[index].description} />);
+      cards.push(
+        <TutorialTextCard
+          company={data[index].company}
+          title={data[index].title}
+          description={data[index].description}
+          video={data[index.videoSrc]}
+        />
+      );
     }
     return cards;
   };

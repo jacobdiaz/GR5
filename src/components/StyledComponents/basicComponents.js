@@ -58,6 +58,7 @@ const GreyButton = styled("button")`
   text-decoration: none!important;
 
   :hover {
+    background-color: #4D4D4D;
     cursor: pointer;
   }
 `;

@@ -1,16 +1,13 @@
-.back{
-    width: 200px;
-    background-color: white;
-    text-align: center;
-    border-radius: 8px;
+.back {
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
 }
-.back .icon{
-    padding: 5px;
-}
-.back h3{
-    padding: 5px;
-}
-
-.back:hover{
-    background-color: lightgray;
+.icon {
+  padding-right: 5px;
 }

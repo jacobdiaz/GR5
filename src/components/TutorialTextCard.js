@@ -5,7 +5,9 @@ import styled from "styled-components";
 
 import CompanyIcon from "./CompanyIcon";
 import BookmarkAddIcon from "@mui/icons-material/BookmarkAdd";
-export default function TutorialTextCard({ title, description, company }) {
+import { Link } from "react-router-dom";
+
+export default function TutorialTextCard({ title, description, company, video }) {
   const TutorialCard = styled("div")`
     background-color: white;
     padding: 25px;
@@ -23,10 +25,12 @@ export default function TutorialTextCard({ title, description, company }) {
         </div>
       </div>
       {/* Description and the button */}
-      <p>{description}</p>
+      <p style={{ paddingRight: "40%" }}>{description}</p>
       <Row style={{ alignItems: "space-between" }}>
         <div style={{ width: "70%", paddingRight: "10px" }}>
-          <GreyButton>View Tutorial</GreyButton>
+          <Link to={`/tutorial?title=${title}&paragraph=${description}&video=${video}&company=${company}`}>
+            <GreyButton>View Tutorial</GreyButton>
+          </Link>
         </div>
 
         <div style={{ width: "25%" }}>
