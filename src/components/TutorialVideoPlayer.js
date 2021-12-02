@@ -16,7 +16,7 @@ export default function TutorialVideoPlayer() {
 
   // Grab from url
   const tit = urlParams.get("title");
-  const des = urlParams.get("description");
+  const des = urlParams.get("paragraph");
   const com = urlParams.get("company");
   const src = urlParams.get("video");
 
