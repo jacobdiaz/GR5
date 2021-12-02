@@ -1,11 +1,12 @@
-import React from "react";
+import { React, useState } from "react";
 import "../assets/searchbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 import { GreyButton } from "./StyledComponents/basicComponents";
-
 import { Link } from "react-router-dom";
 
-export default function SearchBar({ placeholder, data }) {
+export default function SearchBar({ placeholder }) {
+  const [searchInput, setSearch] = useState("");
+  let stringUrl = `/search?input=${searchInput}`;
   return (
     <div className="container">
       <div className="searchContainer">
@@ -13,13 +14,13 @@ export default function SearchBar({ placeholder, data }) {
           <div className="searchIcon">
             <SearchIcon />
           </div>
-          <input type="text" placeholder={placeholder} />
+          <input type="text" onChange={(e) => setSearch(e.target.value)} placeholder={placeholder} />
         </div>
         <div className="searchResult"></div>
       </div>
       <div style={{ width: "120px" }}>
-        <Link to="/search">
-        <GreyButton to="/search">Search</GreyButton>
+        <Link to={stringUrl}>
+          <GreyButton to="/search">Search</GreyButton>
         </Link>
       </div>
     </div>
