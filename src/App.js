@@ -1,5 +1,5 @@
 import HomePage from "./routes/HomePage";
-import SearchResultPage from "./routes/SearchResultPage";
+
 import "./Styles/app.css";
 
 function App() {

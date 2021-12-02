@@ -28,7 +28,7 @@ export default function SearchResultCard({ title, paragraph, video, company }) {
         </div>
       </div>
       <div className="video-results">
-        <iframe src={video}></iframe>
+        <iframe src={video} title={title}></iframe>
       </div>
     </div>
   );

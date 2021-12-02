@@ -2,7 +2,7 @@ import React from "react";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import "../assets/back.css";
 
-export default function () {
+export default function BackComponent() {
   return (
     <button
       onClick={() => {
