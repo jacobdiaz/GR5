@@ -1,0 +1,38 @@
+[
+  {
+    "company": "Amazon",
+    "title": "Creating a new Amazon Account",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat blandit aliquam etiam erat velit. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Posuere urna nec tincidunt praesent semper. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. At ultrices mi tempus imperdiet nulla malesuada. Sagittis nisl rhoncus mattis rhoncus urna neque viverra. Ut sem viverra aliquet eget sit. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Id faucibus nisl tincidunt eget nullam. Sapien pellentesque habitant morbi tristique. Elit eget gravida cum sociis natoque penatibus et magnis. At risus viverra adipiscing at. Sapien nec sagittis aliquam malesuada bibendum. Eget velit aliquet sagittis id. Diam sit amet nisl suscipit adipiscing bibendum est. Sed pulvinar proin gravida hendrerit.",
+    "videoSrc": "https://www.youtube.com/embed/P90I9LX7y9Y"
+  },
+  {
+    "company": "Amazon",
+    "title": "Tracking my Amazon Shipment",
+    "description": "Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Volutpat sed cras ornare arcu. Ut porttitor leo a diam. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Morbi tristique senectus et netus et malesuada fames. Tincidunt praesent semper feugiat nibh sed pulvinar. Tempor orci eu lobortis elementum nibh tellus. Eros donec ac odio tempor orci dapibus ultrices. Magna etiam tempor orci eu lobortis elementum. Tincidunt arcu non sodales neque. Venenatis lectus magna fringilla urna. Id ornare arcu odio ut. Curabitur gravida arcu ac tortor dignissim convallis aenean. Id diam vel quam elementum. Viverra justo nec ultrices dui sapien eget.",
+    "videoSrc": "https://www.youtube.com/embed/MoaDH9e8e_A"
+  },
+  {
+    "company": "Amazon",
+    "title": "How to set up a new Amazon Payment method",
+    "description": "Mauris sit amet massa vitae tortor. Nunc aliquet bibendum enim facilisis gravida neque convallis. Aenean vel elit scelerisque mauris pellentesque. Viverra adipiscing at in tellus integer feugiat scelerisque. At risus viverra adipiscing at in tellus integer feugiat. Neque convallis a cras semper auctor. Ut placerat orci nulla pellentesque dignissim enim sit amet. Imperdiet dui accumsan sit amet. Ut diam quam nulla porttitor massa id. Purus semper eget duis at tellus at urna condimentum.",
+    "videoSrc": "https://www.youtube.com/embed/BoxgF-26PrU"
+  },
+  {
+    "company": "Amazon",
+    "title": "How to delete an Amazon Account",
+    "description": "Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat blandit aliquam etiam erat velit. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Posuere urna nec tincidunt praesent semper. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. At ultrices mi tempus imperdiet nulla malesuada. Sagittis nisl rhoncus mattis rhoncus urna neque viverra. Ut sem viverra aliquet eget sit. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Id faucibus nisl tincidunt eget nullam. Sapien pellentesque habitant morbi tristique. Elit eget gravida cum sociis natoque penatibus et magnis. At risus viverra adipiscing at. Sapien nec sagittis aliquam malesuada bibendum. Eget velit aliquet sagittis id. Diam sit amet nisl suscipit adipiscing bibendum est. Sed pulvinar proin gravida hendrerit.",
+    "videoSrc": "https://www.youtube.com/embed/fWIHkq7xQOc"
+  },
+  {
+    "company": "Google",
+    "title": "How to create new Gmail Account",
+    "description": "Massa vitae tortor. Nunc aliquet bibendum enim facilisis gravida neque convallis. Aenean vel elit scelerisque mauris pellentesque. Viverra adipiscing at in tellus integer feugiat scelerisque. At risus viverra adipiscing at in tellus integer feugiat. Neque convallis a cras semper auctor. Ut placerat orci nulla pellentesque dignissim enim sit amet. Imperdiet dui accumsan sit amet. Ut diam quam nulla porttitor massa id. Purus semper eget duis at tellus at urna condimentum.",
+    "videoSrc": "https://www.youtube.com/embed/qTeZlPja5N4"
+  },
+  {
+    "company": "Google",
+    "title": "How to identify scams on Google Shopping",
+    "description": "Faucibus interdum posuere lorem ipsum dolor. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Volutpat sed cras ornare arcu. Ut porttitor leo a diam. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Morbi tristique senectus et netus et malesuada fames. Tincidunt praesent semper feugiat nibh sed pulvinar. Tempor orci eu lobortis elementum nibh tellus. Eros donec ac odio tempor orci dapibus ultrices. Magna etiam tempor orci eu lobortis elementum. Tincidunt arcu non sodales neque. Venenatis lectus magna fringilla urna. Id ornare arcu odio ut. Curabitur gravida arcu ac tortor dignissim convallis aenean. Id diam vel quam elementum. Viverra justo nec ultrices dui sapien eget.",
+    "videoSrc": "https://www.youtube.com/embed/KAbp_ajsCco"
+  }
+]

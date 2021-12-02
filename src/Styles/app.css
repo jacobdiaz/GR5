@@ -12,3 +12,6 @@ button {
   border-decoration: none;
   border: none;
 }
+button:hover {
+  cursor: pointer;
+}

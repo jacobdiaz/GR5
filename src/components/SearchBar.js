@@ -1,18 +1,23 @@
-import React from 'react';
+import React from "react";
 import "../assets/searchbar.css";
-import SearchIcon from '@mui/icons-material/Search';
-
+import SearchIcon from "@mui/icons-material/Search";
+import { GreyButton } from "./StyledComponents/basicComponents";
 // Glieb
-export default function SearchBar({placeholder, data}) {
-    return (
-        <div className = "search">
-            <div className = "searchInputs">
-                <div className = "searchIcon">
-                    <SearchIcon/>
-                </div>
-                <input type= "text" placeholder = {placeholder}/>
-            </div>
-            <div className = "searchResult"></div>
+export default function SearchBar({ placeholder, data }) {
+  return (
+    <div className="container">
+      <div className="searchContainer">
+        <div className="searchInputs">
+          <div className="searchIcon">
+            <SearchIcon />
+          </div>
+          <input type="text" placeholder={placeholder} />
         </div>
-    )
+        <div className="searchResult"></div>
+      </div>
+      <div style={{ width: "120px" }}>
+        <GreyButton>Search</GreyButton>
+      </div>
+    </div>
+  );
 }
