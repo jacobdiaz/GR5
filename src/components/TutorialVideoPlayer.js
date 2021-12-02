@@ -27,7 +27,7 @@ export default function TutorialVideoPlayer() {
       <VideoPlayerContainer>
         <VideoPlayer>
           {/* videoSrc is the url of the video */}
-          <iframe width="100%" height="100%" src={src}></iframe>
+          <iframe width="100%" height="100%" src={src} title={tit}></iframe>
         </VideoPlayer>
         <div></div>
       </VideoPlayerContainer>

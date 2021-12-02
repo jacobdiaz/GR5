@@ -31,7 +31,7 @@ export default class HomePage extends Component {
           company={data[index].company}
           title={data[index].title}
           description={data[index].description}
-          video={data[index.videoSrc]}
+          video={data[index].videoSrc}
         />
       );
     }
@@ -50,7 +50,7 @@ export default class HomePage extends Component {
         <h2>Step-by-step Instructions</h2>
         <h4>1) Choose the Company you need help with</h4>
         <h4>2) Then choose the the Category of services you might need help with for that Company</h4>
-        <h4>OR  Just type it in the search bar!</h4>
+        <h4>OR Just type it in the search bar!</h4>
 
         <Row>
           <h2 style={{ paddingRight: "10px" }}>Company</h2>
