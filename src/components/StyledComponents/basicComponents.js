@@ -63,5 +63,10 @@ const GreyButton = styled("button")`
 `;
 
 //#endregion
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
 
-export {VideoPlayer, VideoPlayerContainer, Container, CardRowContainer, TranscriptCard, VideoTitleDescCard, GreyButton };
+export { Row, VideoPlayer, VideoPlayerContainer, Container, CardRowContainer, TranscriptCard, VideoTitleDescCard, GreyButton };

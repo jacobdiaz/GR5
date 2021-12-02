@@ -1,19 +1,25 @@
-
-.card-div{
-  width: 150px; 
+.card-div {
+  width: 150px;
   height: 150px;
-  border: 1px solid #ddd;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
   text-align: center;
+  border-radius: 8px;
+}
+.card-div:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.card-image img{
-    height: 75px;
+.card-image img {
+  height: 75px;
 }
 
-.card-image{
-    padding-top: 10px;
+.card-image {
+  padding-top: 10px;
 }
 
-.card-title{
-    padding-bottom: 10px;
+.card-title {
+  padding-bottom: 10px;
 }
