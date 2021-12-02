@@ -1,6 +1,6 @@
 import React from "react";
 import TutorialVideoPlayer from "../components/TutorialVideoPlayer";
-import { Container } from "../components/StyledComponents/ReusableComponents";
+import { Container } from "../components/StyledComponents/basicComponents";
 
 export default function TutorialVideoPage({ title, description, videoSrc, company }) {
   return (

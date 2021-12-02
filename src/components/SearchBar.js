@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/searchbar.css";
 import SearchIcon from "@mui/icons-material/Search";
-import { GreyButton } from "../components/StyledComponents/ReusableComponents";
+import { GreyButton } from "./StyledComponents/basicComponents";
 // Glieb
 export default function SearchBar({ placeholder, data }) {
   return (

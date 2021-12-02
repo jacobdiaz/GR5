@@ -2,14 +2,13 @@ import React from "react";
 import LanguageDropDown from "./LanguageDropDown";
 // Import the styled components
 import {
-  Container,
   VideoPlayerContainer,
   VideoPlayer,
   CardRowContainer,
   TranscriptCard,
   VideoTitleDescCard,
   GreyButton,
-} from "./StyledComponents/ReusableComponents";
+} from "./StyledComponents/basicComponents";
 
 export default function TutorialVideoPlayer({ videoSrc, title, description, company }) {
   return (

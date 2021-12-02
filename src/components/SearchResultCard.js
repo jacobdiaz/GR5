@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/searchcard.css";
-import { Container } from "../components/StyledComponents/ReusableComponents";
+import { Container } from "./StyledComponents/basicComponents";
 
 export default function SearchResultCard({ title, paragraph, video }) {
   return (
