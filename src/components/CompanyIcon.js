@@ -14,25 +14,25 @@ import EmailIcon from "@mui/icons-material/Email";
 export default function CompanyIcon({ company, size }) {
   switch (company) {
     // Company iMages
-    case "amazon":
+    case "Amazon":
       return <img src={amazon} alt="company" height={size}></img>;
-    case "google":
+    case "Google":
       return <img src={google} alt="company" height={size}></img>;
-    case "netflix":
+    case "Netflix":
       return <img src={netflix} alt="company" height={size}></img>;
-    case "facebook":
+    case "Facebook":
       return <img src={facebook} alt="company" height={size}></img>;
     case "more":
       return <img src={more} width="35%" alt="more button"></img>;
 
     // Icons
-    case "shopping":
+    case "Shopping":
       return <ShoppingCartIcon style={{ fontSize: "80px" }} />;
-    case "payments":
+    case "Payments":
       return <AttachMoneyIcon style={{ fontSize: "80px" }} />;
-    case "shipping":
+    case "Shipping":
       return <LocalShippingIcon style={{ fontSize: "80px" }} />;
-    case "email":
+    case "Email":
       return <EmailIcon style={{ fontSize: "80px" }} />;
 
     default:

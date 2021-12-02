@@ -20,10 +20,10 @@ export default class HomePage extends Component {
         </Row>
 
         <Row style={{ justifyContent: "space-between" }}>
-          <CategoryItem company="amazon" />
-          <CategoryItem company="facebook" />
-          <CategoryItem company="netflix" />
-          <CategoryItem company="google" />
+          <CategoryItem company="Amazon" />
+          <CategoryItem company="Facebook" />
+          <CategoryItem company="Netflix" />
+          <CategoryItem company="Google" />
           <CategoryItem company="more" />
         </Row>
 
@@ -33,10 +33,10 @@ export default class HomePage extends Component {
         </Row>
 
         <Row style={{ justifyContent: "space-between" }}>
-          <CategoryItem company="shopping" />
-          <CategoryItem company="payments" />
-          <CategoryItem company="shipping" />
-          <CategoryItem company="email" />
+          <CategoryItem company="Shopping" />
+          <CategoryItem company="Payments" />
+          <CategoryItem company="Shipping" />
+          <CategoryItem company="Email" />
           <CategoryItem company="more" />
         </Row>
 
