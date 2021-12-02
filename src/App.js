@@ -5,7 +5,7 @@ import "./Styles/app.css";
 function App() {
   // Apps initial page is the homepage
   // return <HomePage />;
-  return <HomePage />;
+  return <TutorialVideoPage />;
 }
 
 export default App;
