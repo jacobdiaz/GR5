@@ -13,7 +13,7 @@ export default class HomePage extends Component {
       // Container keeps everthing within the nice spaced margins
       <Container>
         {/* Search bar is fixed to the top of the page as you scroll */}
-        <SearchBar />
+        <SearchBar placeholder = "Enter Company Name or Type of Tutorial You Need..."/>
 
         <Row>
           <h2 style={{ paddingRight: "10px" }}>Company</h2>
