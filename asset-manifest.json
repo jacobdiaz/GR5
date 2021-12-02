@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/GR5/static/css/main.8814f14b.chunk.css",
-    "main.js": "/GR5/static/js/main.76ae2cf3.chunk.js",
-    "main.js.map": "/GR5/static/js/main.76ae2cf3.chunk.js.map",
+    "main.js": "/GR5/static/js/main.120d8326.chunk.js",
+    "main.js.map": "/GR5/static/js/main.120d8326.chunk.js.map",
     "runtime-main.js": "/GR5/static/js/runtime-main.e5de57f6.js",
     "runtime-main.js.map": "/GR5/static/js/runtime-main.e5de57f6.js.map",
-    "static/js/2.e6eca28c.chunk.js": "/GR5/static/js/2.e6eca28c.chunk.js",
-    "static/js/2.e6eca28c.chunk.js.map": "/GR5/static/js/2.e6eca28c.chunk.js.map",
+    "static/js/2.f24d200b.chunk.js": "/GR5/static/js/2.f24d200b.chunk.js",
+    "static/js/2.f24d200b.chunk.js.map": "/GR5/static/js/2.f24d200b.chunk.js.map",
     "index.html": "/GR5/index.html",
     "static/css/main.8814f14b.chunk.css.map": "/GR5/static/css/main.8814f14b.chunk.css.map",
-    "static/js/2.e6eca28c.chunk.js.LICENSE.txt": "/GR5/static/js/2.e6eca28c.chunk.js.LICENSE.txt",
+    "static/js/2.f24d200b.chunk.js.LICENSE.txt": "/GR5/static/js/2.f24d200b.chunk.js.LICENSE.txt",
     "static/media/facebook.60102045.png": "/GR5/static/media/facebook.60102045.png",
     "static/media/netflix.9cfb17f1.png": "/GR5/static/media/netflix.9cfb17f1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e5de57f6.js",
-    "static/js/2.e6eca28c.chunk.js",
+    "static/js/2.f24d200b.chunk.js",
     "static/css/main.8814f14b.chunk.css",
-    "static/js/main.76ae2cf3.chunk.js"
+    "static/js/main.120d8326.chunk.js"
   ]
 }
