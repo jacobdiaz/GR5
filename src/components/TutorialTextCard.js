@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, GreyButton } from "./StyledComponents/basicComponents";
+import { GreyButton } from "./StyledComponents/basicComponents";
 import { ParaGrey } from "./StyledComponents/textComponents";
 import styled from "styled-components";
 
@@ -12,20 +12,18 @@ export default function TutorialTextCard({ title, description, company }) {
     border-radius: 10px;
   `;
   return (
-    <Container>
-      <TutorialCard>
-        {/* Title and image */}
-        <div style={{ display: "flex", alignItems: "center", width: "100%", justifyContent: "space-between" }}>
-          <h2>{title}</h2>
-          <div style={{ display: "flex", alignItems: "center" }}>
-            <ParaGrey style={{ paddingRight: "10px" }}> {company}</ParaGrey>
-            <CompanyIcon company size="25px" />
-          </div>
+    <TutorialCard>
+      {/* Title and image */}
+      <div style={{ display: "flex", alignItems: "center", width: "100%", justifyContent: "space-between" }}>
+        <h2>{title}</h2>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <ParaGrey style={{ paddingRight: "10px" }}> {company}</ParaGrey>
+          <CompanyIcon company={company} size="25px" />
         </div>
-        {/* Description and the button */}
-        <p>{description}</p>
-        <GreyButton>View Tutorial</GreyButton>
-      </TutorialCard>
-    </Container>
+      </div>
+      {/* Description and the button */}
+      <p>{description}</p>
+      <GreyButton>View Tutorial</GreyButton>
+    </TutorialCard>
   );
 }
