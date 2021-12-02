@@ -90,9 +90,28 @@
     "videoSrc": "https://www.youtube.com/embed/46bqxNv8S1w"
   }, 
   {
+    "company": "Ebay",
+    "title": "How to Sell Items on Ebay",
+    "description": "Learn how to sell items on Ebay with this in depth video! ",
+    "videoSrc": "https://www.youtube.com/embed/4COEJLocfqQ"
+  },
+  {
+    "company": "Ebay",
+    "title": "How to add Payment Methods on Ebay",
+    "description": "Are you searching ebay and want to make a purchase but don't know how add payment information? Follow this toutorial to find out.",
+    "videoSrc": "https://www.youtube.com/embed/TeIaRxBeesw"
+  },
+  
+  {
     "company": "Walmart",
-    "title": "How to ",
+    "title": "How to Spot Scams on Walmart",
     "description": "Spot shopping scams in the search engine's shopping tool. These simple tips are explained and illustrated clearly in this tutorial.",
     "videoSrc": "https://www.youtube.com/embed/46bqxNv8S1w"
+  },
+  {
+    "company": "Walmart",
+    "title": "How to make purchases on Walmart",
+    "description": "This video helps users make pursaches on Walmart online. Watch this video for more information.",
+    "videoSrc": "https://www.youtube.com/embed/-QWyPzTa6wI"
   }
 ]
