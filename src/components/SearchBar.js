@@ -9,6 +9,9 @@ export default function SearchBar({ placeholder }) {
   let stringUrl = `/search?input=${searchInput}`;
   return (
     <div className="container">
+      <div className="searchName">
+        <h2 style={{ marginRight: '.8rem' }} > OnlineAssist &nbsp;</h2>
+      </div>
       <div className="searchContainer">
         <div className="searchInputs">
           <div className="searchIcon">

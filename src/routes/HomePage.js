@@ -48,6 +48,7 @@ export default function TutorialVideoPage() {
     // Container keeps everthing within the nice spaced margins
     <Container>
       {/* Search bar is fixed to the top of the page as you scroll */}
+      
       <SearchBar placeholder="Enter Company Name or Type of Tutorial You Need..." />
 
       <LanguageDropDown />
