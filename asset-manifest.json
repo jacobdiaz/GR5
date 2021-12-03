@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/GR5/static/css/main.fdebbc73.chunk.css",
-    "main.js": "/GR5/static/js/main.1719c7ac.chunk.js",
-    "main.js.map": "/GR5/static/js/main.1719c7ac.chunk.js.map",
+    "main.css": "/GR5/static/css/main.c9958e06.chunk.css",
+    "main.js": "/GR5/static/js/main.3125ab19.chunk.js",
+    "main.js.map": "/GR5/static/js/main.3125ab19.chunk.js.map",
     "runtime-main.js": "/GR5/static/js/runtime-main.e5de57f6.js",
     "runtime-main.js.map": "/GR5/static/js/runtime-main.e5de57f6.js.map",
-    "static/js/2.1115be9e.chunk.js": "/GR5/static/js/2.1115be9e.chunk.js",
-    "static/js/2.1115be9e.chunk.js.map": "/GR5/static/js/2.1115be9e.chunk.js.map",
+    "static/js/2.634bcef0.chunk.js": "/GR5/static/js/2.634bcef0.chunk.js",
+    "static/js/2.634bcef0.chunk.js.map": "/GR5/static/js/2.634bcef0.chunk.js.map",
     "index.html": "/GR5/index.html",
-    "static/css/main.fdebbc73.chunk.css.map": "/GR5/static/css/main.fdebbc73.chunk.css.map",
-    "static/js/2.1115be9e.chunk.js.LICENSE.txt": "/GR5/static/js/2.1115be9e.chunk.js.LICENSE.txt",
+    "static/css/main.c9958e06.chunk.css.map": "/GR5/static/css/main.c9958e06.chunk.css.map",
+    "static/js/2.634bcef0.chunk.js.LICENSE.txt": "/GR5/static/js/2.634bcef0.chunk.js.LICENSE.txt",
     "static/media/facebook.60102045.png": "/GR5/static/media/facebook.60102045.png",
     "static/media/netflix.9cfb17f1.png": "/GR5/static/media/netflix.9cfb17f1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e5de57f6.js",
-    "static/js/2.1115be9e.chunk.js",
-    "static/css/main.fdebbc73.chunk.css",
-    "static/js/main.1719c7ac.chunk.js"
+    "static/js/2.634bcef0.chunk.js",
+    "static/css/main.c9958e06.chunk.css",
+    "static/js/main.3125ab19.chunk.js"
   ]
 }
